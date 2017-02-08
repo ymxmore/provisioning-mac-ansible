@@ -4,6 +4,7 @@
   vars:
     homebrew_taps:
       - caskroom/cask
+      - caskroom/fonts
 
     homebrew_packages:
       - name: awscli
@@ -32,6 +33,7 @@
       - name: dropbox
       - name: firefox
       - name: flash-player
+      - name: font-fira-code
       - name: google-chrome
       - name: google-japanese-ime
       - name: iterm2
@@ -53,6 +55,7 @@
       with_items: "{{ homebrew_taps }}"
       tags:
         - brew
+        - cask
 
     # brew update
     - name: update homebrew
