@@ -27,6 +27,7 @@
       - name: re2c
 
     homebrew_cask_packages:
+      - name: android-studio
       - name: appcleaner
       - name: clipmenu
       - name: docker
@@ -36,6 +37,7 @@
       - name: font-fira-code
       - name: google-chrome
       - name: google-japanese-ime
+      - name: hyperswitch
       - name: iterm2
       - name: sequel-pro
       - name: sketch
