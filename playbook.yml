@@ -11,6 +11,7 @@
       - name: direnv
       - name: jq
       - name: noti
+      # - name: openssl@1.1
       - name: packer
       - name: terraform
       - name: wget
@@ -19,7 +20,6 @@
       - name: autoconf
       - name: automake
       - name: bison
-      - name: homebrew/versions/openssl101
       - name: libjpeg
       - name: libmcrypt
       - name: libpng
@@ -37,8 +37,8 @@
       - name: font-fira-code
       - name: google-chrome
       - name: google-japanese-ime
-      - name: hyperswitch
       - name: iterm2
+      - name: mysqlworkbench
       - name: sequel-pro
       - name: sketch
       - name: slack

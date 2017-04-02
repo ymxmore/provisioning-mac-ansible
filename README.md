@@ -13,8 +13,8 @@ $ brew install python ansible
 
 ```bash
 # e.g. execute all
-$ ansible-playbook localhost.yml -i hosts --become --become-user=<BECOME_USER>
+$ ansible-playbook playbook.yml -i hosts --become --become-user=<BECOME_USER>
 
 # e.g. only install brew packages
-$ ansible-playbook localhost.yml -i hosts --become --become-user=<BECOME_USER> --tags=brew
+$ ansible-playbook playbook.yml -i hosts --become --become-user=<BECOME_USER> --tags=brew
 ```
