@@ -11,9 +11,9 @@
       - name: direnv
       - name: jq
       - name: noti
-      # - name: openssl@1.1
       - name: packer
       - name: terraform
+      - name: tree
       - name: wget
 
       # for phpenv
