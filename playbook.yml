@@ -29,6 +29,7 @@
     homebrew_cask_packages:
       - name: android-studio
       - name: appcleaner
+      - name: boxcryptor
       - name: clipmenu
       - name: docker
       - name: dropbox
