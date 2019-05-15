@@ -30,7 +30,7 @@
       - name: android-studio
       - name: appcleaner
       - name: boxcryptor
-      - name: clipmenu
+      - name: clipy
       - name: docker
       - name: dropbox
       - name: firefox
@@ -47,7 +47,7 @@
       - name: teamviewer
       - name: transmit
       - name: vagrant
-      - name: virtualbox
+      # - name: virtualbox
       - name: visual-studio-code
 
   handlers:
