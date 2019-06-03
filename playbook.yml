@@ -43,8 +43,8 @@
       - name: sequel-pro
       - name: sketch
       - name: slack
-      - name: sublime-text
-      - name: teamviewer
+      # - name: sublime-text
+      # - name: teamviewer
       - name: transmit
       - name: vagrant
       # - name: virtualbox
