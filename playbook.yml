@@ -40,11 +40,13 @@
       - name: google-japanese-ime
       - name: iterm2
       - name: mysqlworkbench
+      - name: postman
       - name: sequel-pro
       - name: sketch
       - name: slack
       # - name: sublime-text
       # - name: teamviewer
+      - name: the-unarchiver
       - name: transmit
       - name: vagrant
       # - name: virtualbox
