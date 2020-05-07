@@ -3,18 +3,21 @@
   gather_facts: no
   vars:
     homebrew_taps:
-      - caskroom/cask
-      - caskroom/fonts
+      # - homebrew/cask-cask
+      # - caskroom/fonts
 
     homebrew_packages:
+      - name: anyenv
       - name: awscli
       - name: direnv
+      - name: git
       - name: jq
       - name: noti
-      - name: packer
-      - name: terraform
+      # - name: packer
+      # - name: terraform
       - name: tree
       - name: wget
+      - name: zsh
 
       # for phpenv
       - name: autoconf
@@ -34,8 +37,8 @@
       - name: docker
       - name: dropbox
       - name: firefox
-      - name: flash-player
-      - name: font-fira-code
+      # - name: flash-player
+      # - name: font-fira-code
       - name: google-chrome
       - name: google-japanese-ime
       - name: iterm2
@@ -46,9 +49,10 @@
       - name: slack
       # - name: sublime-text
       # - name: teamviewer
+      - name: tableplus
       - name: the-unarchiver
       - name: transmit
-      - name: vagrant
+      # - name: vagrant
       # - name: virtualbox
       - name: visual-studio-code
 
@@ -56,12 +60,12 @@
 
   tasks:
     # brew tap
-    - name: install taps of homebrew
-      homebrew_tap: tap="{{ item }}" state=present
-      with_items: "{{ homebrew_taps }}"
-      tags:
-        - brew
-        - cask
+    # - name: install taps of homebrew
+    #  homebrew_tap: tap="{{ item }}" state=present
+    #  with_items: "{{ homebrew_taps }}"
+    #  tags:
+    #    - brew
+    #    - cask
 
     # brew update
     - name: update homebrew
