@@ -30,10 +30,13 @@
       - name: re2c
 
     homebrew_cask_packages:
+      - name: 1password
+      - name: alfred
       - name: android-studio
       - name: appcleaner
       - name: boxcryptor
-      - name: clipy
+      # - name: clipy
+      - name: discord
       - name: docker
       - name: dropbox
       - name: firefox
@@ -42,10 +45,10 @@
       - name: google-chrome
       - name: google-japanese-ime
       - name: iterm2
-      - name: mysqlworkbench
+      # - name: mysqlworkbench
       - name: postman
-      - name: sequel-pro
-      - name: sketch
+      # - name: sequel-pro
+      # - name: sketch
       - name: slack
       # - name: sublime-text
       # - name: teamviewer
